@@ -1,6 +1,5 @@
 import json
 import os
-
 FILE_NAME = "library.json"
 
 
@@ -12,7 +11,6 @@ def load_library():
         return {}
     except:
         return {}
-
 
 def save_library(library):
     try:
@@ -101,7 +99,7 @@ def main():
     library = load_library()
 
     while True:
-        print("\n--- Бібліотека книг ---")
+        print("\n- Бібліотека книг ---")
         print("1. Додати книгу")
         print("2. Переглянути всі книги")
         print("3. Видалити книгу")
